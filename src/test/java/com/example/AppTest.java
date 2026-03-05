@@ -9,6 +9,6 @@ public class AppTest {
     public void testFactorial() {
         Factorial f = new Factorial();
        
-        assertEquals(120, f.calculate(5)); 
+       assertEquals(120, f.fact(5));  
     }
 }
